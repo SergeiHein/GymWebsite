@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Dancing+Script&family=Just+Another+Hand&family=Playfair+Display&family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Magra&family=Varela+Round&display=swap" rel="stylesheet">
+  <link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar  navbar-expand-lg bg-light fixed-top">
+    <div class="container nav-container">
+      <a href="index.html" class="navbar-brand font-jus font-40 ">
+        Train<span class="text-fav">To</span>Fit
+      </a>      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+   <i class="fas fa-bars"></i>
+  </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto w-100">
+          <li class="nav-item">
+            <a class="nav-link active" href="#Home">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#About">About</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#Program">Program</a>
+              <li class="nav-item">
+                <a class="nav-link" href="#Story">Stories</a>
+               
+        </ul>
+        <ul class="navbar-nav mr-auto w-100 justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sign In</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sign Up</a>
+  
+        </ul>
+      </div>
+    </div>
+    <button onclick="window.scrollTo(0,0);" id="scrollBtn" title="Go to top"><i class="fas fa-angle-up"></i></button>
+
+  </nav>
+
+<section class="Topsection" id="Home">
+    <div class="container">
+
+            <div class="overlay-text">
+              <h1>Start your <span class="header-span">Workout</span>With Us</h1>
+              <p><span class="text-span">''</span>U can make the change and we are here to help.<span class="text-span">''</span></p>
+              <div class="button-area">
+                <button class="animate__animated animate__bounceIn btn bg-fav px-4 py-2 d-block mx-auto text-white mt-4 font-bar" id="homebutton">JOIN NOW!</button>
+
+            </div>
+
+    </div>
+</section>
+
+<section class="Introsection mt-5 px-5" id="About">
+  <div class="container About-container">
+    <h2 class="font-play font-weight-bold text-center mt-4">
+      About
+    </h2>
+    <div id="Intro-custom-border-1">				
+    </div>  
+      <div class="row">
+      <div class="col-md-6">
+        <img src="./Img/gym7.jpg" alt="" class="img-fluid intro-img">
+      </div>
+      <div class="col-md-6">
+        <div class="Introtext">
+          
+          <h5> Welcome to Train to Fit</h5>
+          <div id="Intro-custom-border-2"></div>
+          <p class="Intro-text-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit hic similique ratione natus autem veritatis harum unde velit!
+             Necessitatibus accusantium animi earum laboriosam iusto sequi consequatur porro incidunt nam a.
+             animi earum laboriosam iusto sequi consequatur porro incidunt nam a.</p>
+             <p p class="Intro-text-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora architecto assumenda, quasi facilis vero doloribus,
+                fugit tenetur expedita similique velit error atque reiciendis consectetur </p>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<hr>
+
+
+
+<section class="Workoutsection mt-3 mb-4 px-5 " id="Program">
+  <div class="container mb-5">
+    <h2 class="workout-font font-weight-bold text-center">
+      WorkOut Program
+    </h2>
+    <div id="Intro-custom-border-1">				
+    </div>
+    <div class="workout-text">
+      <h5>What is the most suitable for you?</h5>
+      <div id="Intro-custom-border-2"></div>
+
+    </div>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 workout-card">
+          <img src="./Img/workout1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Arm Exercises</h5>
+            <p class="card-text">Arm circles. Strengthen your shoulders and arms with simple, yet effective circular motions.
+              </p>            <p>7-week plan</p>
+            <button class="animate__animated animate__bounceIn btn bg-work px-4 py-2 d-block mx-auto text-white mt-4 font-bar" id="workbutton">WORK OUT!</button>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 workout-card">
+          <img src="./Img/workout2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Chest Exercises</h5>
+            <p class="card-text">The chest muscles beneath the chest and the connective tissue within the chest support their weight</p>        
+                <p>7-week plan</p>
+            <button class="animate__animated animate__bounceIn btn bg-work px-4 py-2 d-block mx-auto text-white mt-4 font-bar" id="workbutton">WORK OUT!</button>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 workout-card">
+          <img src="./Img/workout3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Leg Exercises</h5>
+            <p class="card-text">Leg workouts engage the major muscle groups of your body, which helps to improve overall athletic performance</p>
+            <p>7-week plan</p>
+            <button class="animate__animated animate__bounceIn btn bg-work px-4 py-2 d-block mx-auto text-white mt-4 font-bar" id="workbutton">WORK OUT!</button>
+
+          </div>
+        </div>
+      </div>
+     
+    </div>
+
+  </div>
+</section>
+
+<div class="container">
+
+  <div class="row">
+ 
+  <div class="col-md-6">
+    <div class="Introtext">
+      
+      <h5>Workout From Home</h5>
+      <div id="Intro-custom-border-2"></div>
+      <p class="Intro-text-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit hic similique ratione natus autem veritatis harum unde velit!
+         Necessitatibus accusantium animi earum laboriosam iusto sequi consequatur porro incidunt nam a.
+         animi earum laboriosam iusto sequi consequatur porro incidunt nam a.</p>
+         <button class="animate__ wow animate__fadeInUp btn mt-4 font-sort font-18 px-4 py-2 animated" style="visibility: visible; animation-name: fadeInUp;">View Videos</button>
+
+    </div>
+  </div>
+  <div class="col-md-6">
+    <img src="./Img/workout4.jpg" alt="" class="img-fluid intro-img">
+  </div>
+
+</div>
+
+</div>
+
+
+<section class="Storysection" id="Story">
+  <div class="container">
+    <h2 class="story-font font-weight-bold text-center">
+      Stories
+    </h2>
+    <div id="Intro-custom-border-1">				
+    </div>
+    <div class="row">
+      <div class="col-md-3 mb-4">
+        <div class="card h-100 story-card">
+          <img src="./Img/story1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5>Nutrition</h5>
+            <p class="story-text">Nutrion is part of the workout process.</p>
+            <p class="story-author">By James carton</p>
+            
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card h-100 story-card">
+          <img src="./Img/story2.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5>Fitness</h5>
+            <p class="story-text">The 5 best seated exercises for older adults.</p>
+            <p class="story-author">By Jamie Oslo</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card h-100 story-card">
+          <img src="./Img/story3.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+          <h5>Nutrition</h5>
+            <p class="story-text">What Happens to Your Body When You Drink Seltzer Every Day</p>
+            <p class="story-author">By Lauren batty</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card h-100 story-card">
+          <img src="./Img/story4.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+          <h5>Fitness</h5>
+            <p class="story-text">10 best Yoga variations for Plus Sized exercises.</p>
+            <p class="story-author">By Brain Horton</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card h-100 story-card">
+          <img src="./Img/story5.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+               <h5>Fitness</h5>
+            <p class="story-text">5 Ways to Shorten Your Workouts and Get Better Results</p>
+            <p class="story-author">By Bojona Galic</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card h-100 story-card">
+          <img src="./Img/story6.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+           <h5>Health</h5>
+            <p class="story-text">7 Ways to Remove Email Stress From Your Life</p>
+            <p class="story-author">By Jamie Oslo</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card h-100 story-card">
+          <img src="./Img/story7.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+             <h5>Fitness</h5>
+            <p class="story-text">Want to Age Well? Do This Hip Exercise Every Week.</p>
+            <p class="story-author">By James carton</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card h-100 story-card">
+          <img src="./Img/story8.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+             <h5>Health</h5>
+            <p class="story-text">How COVID Can Affect Brain Health, and 9 Ways to Strengthen Yours</p>
+            <p class="story-author">By Renee Onque</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="story-text-border">
+      <a href="#">More stories...</a>
+    </div>
+  </div>
+
+
+</section>
+
+
+<section class="footersection mt-5">
+  <footer class="container-fluid bg-grey py-5">
+    <div class="container">
+      <div class="row">
+         <div class="col-md-3">
+                  <div class="logo-part">
+                    <a href="index.html" class="navbar-brand font-jus font-40 ">
+                      Train<span class="text-fav">To</span>Fit
+                    </a>
+                    <p>Take care of your body.It is the only place you have to live!</p>
+                    <p>You don't get what you wish for.You get what you work for</p>
+                     
+                  </div>
+                  </div>
+               <div class="col-md-3 px-4">
+                 <div class="About-part">
+                  <h6> About</h6>
+                  <p>come and spend your day with us as we invite you to the best gymnastics ever!</p>
+                  <a href="#" class="btn-footer"> More Info </a><br>
+                  <a href="#" class="btn-footer"> Contact Us</a>
+                 </div>
+                 
+               </div>
+            
+         
+         <div class="col-md-3">
+          <div class="Opening-part">
+            <h6> Opening Hours</h6>
+            <p>Monday- Saturaday</p>
+            <p>06:00AM - 09:00PM</p>
+           </div>
+           
+         </div>
+         
+         <div class="col-md-3">
+          <div class="Contact-part">
+            <h6> Contact Us</h6>
+            <p><i class="fa fa-location-arrow"></i> 1st street,Yangon </p>
+            <p><i class="fa fa-phone"></i>  +95-9767210712  </p>
+            <p><i class="fa fa fa-envelope"></i> info@example.com  </p>
+           </div>
+          </div>      
+         </div>
+           </div>
+
+  
+   
+  </footer>
+</section>
+  
+<script>
+  //Get the button
+  var mybutton = document.getElementById("scrollBtn");
+
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+
+
+  </script>
+
+</body>
+</html>
