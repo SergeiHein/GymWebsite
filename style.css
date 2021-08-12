@@ -423,4 +423,26 @@ html {
   #homebutton {
     display: none !important;
   }
+  .About-btn,
+  .opening-text,
+  .contact-text {
+    display: flex;
+  }
+
+  .btn-footer {
+    line-height: 20px;
+    margin-right: 10px;
+  }
+
+  .opening-text p,
+  .contact-text p {
+    margin-right: 20px;
+  }
+  .logo-part {
+    border-right: none;
+  }
+  .workout-card:hover {
+    transform: none;
+    /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06); */
+  }
 }
